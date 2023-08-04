@@ -4,18 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "install": "npm install",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NainaMatthieu/back-tourisme.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NainaMatthieu/back-tourisme/issues"
-  },
-  "homepage": "https://github.com/NainaMatthieu/back-tourisme#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",

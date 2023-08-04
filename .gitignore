@@ -1,2 +1,3 @@
 # Ignore le répertoire "node_modules" et son contenu
 node_modules/
+.vercel
