@@ -7,7 +7,6 @@
     "node":"18.x"
   },
   "scripts": {
-    "install": "npm install",
     "start": "node app.js"
   },
   "dependencies": {
