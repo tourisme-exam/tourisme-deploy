@@ -17,7 +17,7 @@ const options = {
   passphrase: passphrase
 };
 
-const server = https.createServer(options, app);
+// const server = https.createServer(options, app);
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -32,4 +32,4 @@ const UserRoute = require('./router/UtilisateurRoute');
 // const InsertionData = require('./util/insertionData');
 // InsertionData();
 app.use('/user', UserRoute);
-server.listen(9000);
+app.listen(9000);
