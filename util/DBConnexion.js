@@ -14,6 +14,6 @@ async function connectToDatabase() {
   }
 }
 
-connectToDatabase();
+// connectToDatabase();
 
 module.exports = mongoose;
