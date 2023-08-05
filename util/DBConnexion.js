@@ -4,7 +4,7 @@ require('dotenv/config');
 // mongoose.set('debug', true);
 async function connectToDatabase() {
   try {
-    await mongoose.connect(process.env.DB_URL, {
+    await mongoose.connect("mongodb+srv://tourisme:tourisme1234@tourisme.xynbuya.mongodb.net/tourisme", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
